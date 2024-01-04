@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세멘트릭 태그 - HTML5 레이아웃 잡는 태그</title>
+    <style>
+        #container {
+            border: 1px solid red;
+            width: 85%;
+            height: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            border: 1px solid red;
+            height: 100px;
+            display: block;
+        }
+
+        footer {
+            border: 1px solid red;
+            height: 100px;
+            display: block;
+        }
+
+        main {
+            border: 1px solid red;
+            height: 700px;
+            display: block;
+        }
+
+        #t1 tr td {
+            border: 1px solid blue;
+            height: 99px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 전체 레이아웃 -->
+    <div id="container">
+        <header>
+            <table id="t1">
+                <tr>
+                    <td width="300px"></td>
+                    <td width="1050px"></td>
+                    <td width="300px"></td>
+                </tr>
+            </table>
+        </header>
+        <main></main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
