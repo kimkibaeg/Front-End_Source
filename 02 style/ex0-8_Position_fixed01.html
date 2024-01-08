@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position : Fixed</title>
+    <style>
+        header {
+            border: 1px solid red;
+            height: 100px;
+            width: 100%;
+            background-color: greenyellow;
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+
+        main {
+            /* fixed header 고정 될 경우, 블락이 없어서 margint-top로 밑으로 밀어냄. */
+            background-color: aquamarine;
+            margin-top: 100px;
+            height: 10000px;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 25%;
+            right: 0px;
+
+            width: 100px;
+            height: 300px;
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <header> 상 단 헤 더 블 락 </header>
+    <main> 메 인 블 락
+        <div class="fixed"> 오른쪽 중간에 항상 고정 (광고) </div>
+    </main>
+    <footer> 푸 더 블 락</footer>
+</body>
+</html>
