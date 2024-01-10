@@ -69,6 +69,34 @@ css 적용 방법
         - 태그 [속성] {  }
     - 가상 플래그 선택자 : 
 
+    Front End : 뷰 (화면에 출력되는 부분), 사용자에게 보여지는 부분
+	- HTML (뼈대), CSS(인테리어), JavaScript (이크마 스크립트6)  <== 핵심 기술
+
+	- JQuery : 자바 스크립트 라이브러리
+	- 리엑트 : FaceBook 에서 만든 SPA 를 위한 JavaScript 라이브러리
+		- 클라이언트에서 서버의 값을 JSON 형식으로 받아와서, client 에서 랜더링 (태그 생성) <== CSR
+	- 뷰, 앵귤러(구글) (x)  <===
+
+BackEnd : 비즈니스 로직 처리, DataBase (Oracle, MySQL, MariaDB ....),
+		MVC : 협업 가능, 유지 쉽다.
+			Client ==> Controller ==> DTO ==> DAO ==> DB
+
+		<== SSR (Server Side Randering)
+	- JSP : HTML + Java , *.jsp  <== 톰캣(WAS) : Server 에서 Java 코드를 랜더링(태그)해서 클라이언트에게 전송
+	- PHP : HTML + C
+	- .net
+	- Thymeleaf     <== Spring Boot
+==============================프레임 워크 (틀) : 자동 기술이 녹아 있음. ==================================
+	Spring boot : Java 기반의 프레임 워크	  <== 국내 프로젝트 대부분	
+	Node.js : JavaScript 기반의 백엔드 프레임 워크
+	Django : Python 기반의 백엔드 프레임 워크
+
+라이브러리 vs 프레임워크 (틀)
+	- 라이브러리 : Linux	<== 뭐든지 내가 다 구현 할 수 있다, 구현하기 위해서는 손이 많이 간다.
+		- 자신이 주가 되어서 뭐든지 구현 할 수 있다.
+	- 프레임워크 : MAC	<== 모든 것이 구현되어 있다, 틀을 벗어나기 힘들다.
+		- 구현되어 있는 틀 내부에서 구현
+
 *-*
 google.com ==> w3c school (Online), 생활코딩, TCPSCHOOL.com
 *-*

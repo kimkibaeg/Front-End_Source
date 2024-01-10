@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table , tr, td {
+            border: 1px solid black;
+        }
+    </style>
+
+    <script>
+        document.write("기존 body 모든 내용을 지우고 ")
+        let tag ;
+        function gugudan() {
+
+            tag ='<table align = "center">'
+            for (i = 0; i <= 9; i++) {
+                tag += "<tr>"
+                tag += "<td>" + i + "단" + "</td>"
+                    for (j = 1; j <= 9; j++){
+                        tag += "<td>" + i + "*" + j + "=" + i * j + "</td>"
+                    }
+
+                tag += "</tr>"
+            }
+            tag += "</table>"
+        }
+        console.log(tag);
+        document.write(tag);
+    </script>
+</head>
+<body>
+    <h2> 구구단 출력 </h2>
+    <hr>
+
+    <script>
+        // 함수 호출
+        gugudan()
+    </script>
+</body>
+</html>
