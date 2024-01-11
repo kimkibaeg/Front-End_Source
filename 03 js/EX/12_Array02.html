@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 배열 선언
+            // 자바는 배열을 선언 할 때 방의 갯수를 지정.
+            //      - 배열에 넣을 데이터 형식을 지정
+            // 자바 스크립트는 배열의 방 크기를 선언 하지 않아도 됨.
+            //      - 여러 데이터 타입을 저장 할 수 있음.
+            //      - 배열의 방의 크기가 자동으로 늘어남.
+        var city = [];  // 배열 변수 선언
+
+        // 배열의 각 방에 값을 할당
+        city[0] = "Seoul";
+        city[1] = "Incheon";
+        city[2] = "Daegu";
+        city[3] = "Busan";
+        city[4] = "sejeong";
+        city[4] = "Daejeon";
+        city[4] = "Hongcheon";
+
+        function printArr() {
+            var i;
+            for (i = 0; i < city.length; i++) {
+                document.write("배열 데이터 [" + i + "] = " + city[i] + "<br>")
+            }
+        }
+        printArrr()
+    </script>
+</body>
+</html>
